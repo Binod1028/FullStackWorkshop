@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+/* Search Input */
+#search-input {
+    width: 300px;
+    padding: 10px;
+    margin: 15px 0;
+    display: block;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+#movie-list {
+    margin-top: 20px;
+}
+
+.movie-item {
+    background: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.movie-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.movie-item button {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #28a745;
+    color: white;
+}
+
+.movie-item button:last-child {
+    background: #dc3545;
+}
+
+.movie-item button:hover {
+    opacity: 0.85;
+}
