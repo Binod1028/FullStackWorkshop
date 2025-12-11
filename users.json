@@ -13,5 +13,20 @@
         "name": "",
         "email": "",
         "password": "$2y$10$vJHf1.my2ZWeYncHwwkxp.T13zqdsUVs6Au3LG2SistbDkwH4IdMe"
+    },
+    {
+        "name": "Dishan Adhikari",
+        "email": "dishan123@gmail.comm",
+        "password": "$2y$10$Q53SV2p\/e\/d4.uHn.TAeP.Q.crfrOcxy0fu.3XxlfShyD0P4kBioq"
+    },
+    {
+        "name": "Binod Chaudhary",
+        "email": "binod121@gmail.com",
+        "password": "$2y$10$lbi8ZHlthqlyop97GpSqne.Gi7lqaJaxlDwQD6YgKR.mLi7M6DOFS"
+    },
+    {
+        "name": "Bishal Saud",
+        "email": "Bishal12@gmail.com",
+        "password": "$2y$10$j6VVBf.28DHmL1xn5N6Q0OLPhwH0Xj7S.EUzWw3RPm3lIfN\/Xj3D."
     }
 ]

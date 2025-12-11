@@ -94,11 +94,11 @@ if ($nameErr == "" && $emailErr == "" && $passwordErr == "" && $confirmErr == ""
     <form action="registration.php" method="POST">
 
         <label for="name">Full Name:</label><br>
-        <input type="text" id="name" name="name" required value="<?php echo htmlspecialchars($name); ?>">
+        <input type="text" id="name" name="name" required>
         <span class="error"><?php echo $nameErr; ?></span><br><br>
 
         <label for="email">Email Address:</label><br>
-        <input type="email" id="email" name="email" required value="<?php echo htmlspecialchars($email); ?>">
+        <input type="email" id="email" name="email" required>
         <span class="error"><?php echo $emailErr; ?></span><br><br>
 
         <label for="password">Password:</label><br>
